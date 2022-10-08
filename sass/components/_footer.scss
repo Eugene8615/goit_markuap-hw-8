@@ -1,0 +1,39 @@
+.footer {
+    background: var(--bg-dark);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.footer .container {
+    align-items: baseline;
+}
+
+.logo-footer {
+    color: var(--active-color);
+    display: block;
+    margin-bottom: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.16;
+}
+
+.logo--color2 {
+    color: var(--white-color);
+}
+
+.footer-block {
+    text-align: center;
+
+    @media screen and (min-width: 768px) {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    @media screen and (min-width: 1200px) {
+        display: flex;
+        align-items: baseline;
+        text-align: left;
+    }
+}

@@ -1,0 +1,38 @@
+
+
+.doing {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
+    color: var(--main-color);
+}
+
+.example-list {
+    display: flex;
+    gap: 30px;
+}
+
+.example-list__item {
+    position: relative;
+}
+
+.example-list__text {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 370px;
+    height: 70px;
+    background-color: var(--bcg-2);
+    color: var(--white-color);
+    position: absolute;
+    bottom: 0;
+}

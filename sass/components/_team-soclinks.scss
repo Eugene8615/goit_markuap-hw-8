@@ -1,0 +1,29 @@
+.team-soclinks {
+    display: flex;
+    justify-content: center;
+}
+
+.team-soclinks__item:not(:last-child) {
+    margin-right: 10px;
+}
+
+.team-soclinks__link {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    border: 0;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    color: var(--social-links-color);
+    transition: color 250ms var(--cubic ), background-color 250ms var(--cubic );
+}
+
+.team-soclinks__link:hover, .team-soclinks__link:focus {
+    background-color: var(--active-color);
+    color: var(--white-color);
+}
+
+.team-soclinks__icon {
+    fill: currentColor;
+}
